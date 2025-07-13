@@ -1,5 +1,5 @@
-import type { user } from './types';
-export function renderUser(users: user[], target: HTMLElement){
+import type { User } from './types';
+export function renderUser(users: User[], target: HTMLElement){
     target.innerHTML = '';
     users.forEach(u => {
         const card = document.createElement('div');
